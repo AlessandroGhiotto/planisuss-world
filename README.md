@@ -22,8 +22,8 @@ python your-path/planisuss_main.py
 
 For modifying all the constants present in the simulation just edit the file
 _planisuss_constants.py_. Here we can find all the lower and
-upper bounds for the values of the stats of Erbast and Carviz, constants for the ini-
-tialization of the code like the number of rows and columns of the grid, and other ones
+upper bounds for the values of the stats of Erbast and Carviz, constants for the initialization
+of the code like the number of rows and columns of the grid, and other ones
 used for the decision function presents in the code.
 
 **key_press_event** interactivity with the simulation (keyboard):
@@ -81,9 +81,9 @@ Erbast and Carviz are animal species, and are characterized by the following pro
 The time on Planisussis structured in units called day. A day is articulated in the following
 phases:
 
-- **Growing** Vegetob grow everywhere of a fixed quantity.
-- **Movement** The individuals of animal species (Erbast and Carviz) decide if move in another
+- **Growing**: Vegetob grow everywhere of a fixed quantity.
+- **Movement**: The individuals of animal species (Erbast and Carviz) decide if move in another
   area. Movement is articulated as individual and social group (herd or pride) movement.
-- **Grazing** Erbast which did not move, can graze the Vegetob in the area.
-- **Struggle** Carviz insisting on the same area can fight or hunt.
-- **Spawning** Individuals of animal species can generate their offspring.
+- **Grazing**: Erbast which did not move, can graze the Vegetob in the area.
+- **Struggle**: Carviz insisting on the same area can fight or hunt.
+- **Spawning**: Individuals of animal species can generate their offspring.
